@@ -12,10 +12,10 @@ import {ILSignUp} from '../../assets';
 
 const Register = () => {
   return (
-    <ScrollView
-      showsVerticalScrollIndicator={false}
-      contentContainer={styles.scrollview}>
-      <View style={styles.container}>
+    <View style={styles.container}>
+      <ScrollView
+        showsVerticalScrollIndicator={false}
+        contentContainer={styles.scrollview}>
         <Text style={styles.title}>Create Your Account</Text>
         <Text style={styles.subTitle}>
           Create your account to start journey
@@ -49,11 +49,11 @@ const Register = () => {
         <View style={styles.viewHaveAccount}>
           <Text style={styles.haveAccount}>Already have account?</Text>
           <TouchableOpacity>
-            <Text style={styles.signUp}>SignUp</Text>
+            <Text style={styles.signUp}>SignIn</Text>
           </TouchableOpacity>
         </View>
-      </View>
-    </ScrollView>
+      </ScrollView>
+    </View>
   );
 };
 

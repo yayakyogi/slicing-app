@@ -1,3 +1,4 @@
 import ILSignUp from './ILSignUp.png';
+import ILSignIn from './ILLogin.png';
 
-export {ILSignUp};
+export {ILSignUp, ILSignIn};

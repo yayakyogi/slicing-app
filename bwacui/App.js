@@ -1,9 +1,12 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Register} from './pages';
+import {Register, Login} from './pages';
 
 const App = () => {
-  return <Register />;
+  return (
+    // <Register />
+    <Login />
+  );
 };
 
 export default App;

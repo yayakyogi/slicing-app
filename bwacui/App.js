@@ -1,13 +1,14 @@
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import {Register, Login, InputPhone, InputCode} from './pages';
+import {Register, Login, InputPhone, InputCode, Home} from './pages';
 
 const App = () => {
   return (
     // <Register />
     // <Login />
     // <InputPhone />
-    <InputCode />
+    // <InputCode />
+    <Home />
   );
 };
 
